@@ -10,8 +10,18 @@ body {
   background: maroon;
 }
 
+@font-face {
+  font-family: 'harry.ttf';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/harry.ttf') format('truetype');
+}
+
 h1 {
   color: white;
+  font-family: 'harry.ttf';
+  font-size: 5em;
+  color: gold;
 }
 
 .memory-game {
